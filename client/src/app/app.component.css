@@ -1,0 +1,9 @@
+.nav-link{
+    color: #8fcd41;   
+    transition-duration: 0.4s;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #8fcd41;
+}
