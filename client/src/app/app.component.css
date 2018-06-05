@@ -1,9 +1,45 @@
-.nav-link{
-    color: #8fcd41;   
+.header{
+    color: white;   
+    transition-duration: 0.4s;
+    background-color: #8fcd41;
+}
+
+.header:hover {
+    color: #8fcd41;
+    background-color: white;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+#inspire {
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    font-weight: bold;
     transition-duration: 0.4s;
 }
 
-.nav-link:hover {
+.footer:hover {
     color: white;
     background-color: #8fcd41;
+}
+
+.green {
+    background-color: #8fcd41;
+
 }
