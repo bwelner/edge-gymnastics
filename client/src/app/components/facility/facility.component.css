@@ -1,0 +1,29 @@
+body {
+    background-color: #8fcd41;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 1.25em;
+    text-align: left;
+}
+
+div {
+    overflow: hidden;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.green {
+    background-color: #8fcd41;
+    font-family: 'Amaranth', sans-serif;
+}

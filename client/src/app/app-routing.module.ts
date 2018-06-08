@@ -10,6 +10,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { PartiesComponent } from './components/parties/parties.component';
 import { SessionsComponent } from './components/sessions/sessions.component';
 import { TeamComponent } from './components/team/team.component';
+import { FacilityComponent } from './components/facility/facility.component';
 
 const routes: Routes = [
   {
@@ -49,6 +50,10 @@ const routes: Routes = [
       path: 'about',
         component: AboutComponent
       },
+      {
+        path: 'facility',
+          component: FacilityComponent
+        },
     {
     path: '**', redirectTo: ''
     }
