@@ -31,8 +31,7 @@ h1{
     font-family: 'Amaranth', sans-serif;
 }
 
-div.test
-{
+div.test1 {
 width: 175px;
 height: 120px;
 padding: 10px;
@@ -40,7 +39,26 @@ border: 2px solid rgba(0, 0, 0, 0);
 border-radius: 15px;
 -moz-border-radius: 15px;
 background-color: #6d9e32;
+transition-duration: 0.4s;
 }
 
+div.test2 {
+width: 175px;
+height: 120px;
+padding: 10px;
+border: 2px solid rgba(0, 0, 0, 0);
+border-radius: 15px;
+-moz-border-radius: 15px;
+background-color: #8fcd41;
+transition-duration: 0.4s;
+}
+
+div.test1:hover {
+    background-color: #8fcd41
+}
+
+div.test2:hover {
+    background-color: #6d9e32
+}
 
 

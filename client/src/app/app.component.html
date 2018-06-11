@@ -18,7 +18,7 @@
   <div class="green">
   <ul class="nav justify-content-center">
   
-    <li class="nav-item">
+    <li class="nav-item dropdown">
       <a class="nav-link header" href="#" routerLink="">Home</a>
     </li>
     <li class="nav-item">
@@ -45,8 +45,20 @@
     <li class="nav-item">
         <a class="nav-link header" href="#" routerLink="facility">Facility</a>
       </li>
-    <li class="nav-item">
-      <a class="nav-link header" href="#" routerLink="team">Team</a>
+    <li class="nav-item dropdown" dropdown>
+      <a dropdownToggle role="button" class="nav-link header">Team</a>
+      <ul *dropdownMenu class="dropdown-menu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">One more separated link</a></li>
+    </ul>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" routerLink="team">Team</a>
     </li>
   </ul>
   </div>
