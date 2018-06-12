@@ -13,6 +13,7 @@ body {
     font-family: 'Amatic SC', cursive;
     font-size: 2em;
     font-weight: bold;
+    background-image: url("/assets/headerbackground.png");
     
 }
 
