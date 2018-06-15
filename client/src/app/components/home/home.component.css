@@ -1,8 +1,8 @@
 body {
-    background-color: #8fcd41;
+    color: black;
     font-family: 'Amaranth', sans-serif;
     font-size: 1.75em;
-    background-image: url("/assets/gymnastics-photo.jpg");
+
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -32,8 +32,8 @@ h1{
 }
 
 div.test1 {
-width: 175px;
-height: 120px;
+width: 200px;
+height: 137px;
 padding: 10px;
 border: 2px solid rgba(0, 0, 0, 0);
 border-radius: 15px;
@@ -45,8 +45,8 @@ color: white;
 }
 
 div.test2 {
-width: 175px;
-height: 120px;
+width: 200px;
+height: 137px;
 padding: 10px;
 border: 2px solid rgba(0, 0, 0, 0);
 border-radius: 15px;
@@ -70,7 +70,6 @@ div.test2:hover {
 }
 
 .marquee {
-    /* width: 450px; */
     margin: 0 auto;
     white-space: nowrap;
     overflow: hidden;
@@ -83,6 +82,8 @@ div.test2:hover {
 
 .marquee span {
     display: inline-block;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
     padding-left: 100%;
     animation: marquee 15s linear infinite;
 }
@@ -95,5 +96,13 @@ div.test2:hover {
 @keyframes marquee {
     0%   { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }
+}
+
+img {
+    opacity: 0.5;
+}
+
+.carousel-caption {
+    color: black;
 }
 
