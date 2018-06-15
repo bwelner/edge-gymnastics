@@ -9,7 +9,7 @@
   <ul class="nav justify-content-center">
     <li class="nav-item">
       <a  href="#" routerLink="">
-      <img src=".\assets\EdgeGymnasticsLogo.png" style="width:350px;height:250px;">
+      <img src=".\assets\EdgeGymnasticsLogo3.png" style="width:350px;height:250px;">
       </a>
     </li>
   </ul>
@@ -21,8 +21,13 @@
     <li class="nav-item dropdown">
       <a class="nav-link header" href="#" routerLink="">Home</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link header" href="#" routerLink="about">About</a>
+    <li class="nav-item dropdown header" dropdown>
+      <a dropdownToggle role="button" class="nav-link header">About Us</a>
+      <ul *dropdownMenu class="dropdown-menu header">
+        <li><a class="nav-link header" href="#" routerLink="about">About Edge</a></li>
+        <li><a class="nav-link header" href="#">Employment</a></li>
+        <li><a class="nav-link header" href="#" routerLink="classes" >Meet the Staff</a></li>
+      </ul>
     </li>
     <li class="nav-item">
       <a class="nav-link header" href="#" routerLink="calendar">Calendar</a>
@@ -42,23 +47,22 @@
     <li class="nav-item">
       <a class="nav-link header" href="#" routerLink="sessions">Sessions</a>
     </li>
-    <li class="nav-item">
-        <a class="nav-link header" href="#" routerLink="facility">Facility</a>
+    <li class="nav-item dropdown header" dropdown>
+        <a dropdownToggle role="button" class="nav-link header">Facility</a>
+        <ul *dropdownMenu class="dropdown-menu header">
+          <li><a class="nav-link header" href="#" routerLink="facility">Photos</a></li>
+         </ul>
       </li>
-    <li class="nav-item dropdown" dropdown>
-      <a dropdownToggle role="button" class="nav-link header">Team</a>
-      <ul *dropdownMenu class="dropdown-menu">
-        <li><a href="#">Action</a></li>
-        <li><a href="#">Another action</a></li>
-        <li><a href="#">Something else here</a></li>
-        <li role="separator" class="divider"></li>
-        <li><a href="#">Separated link</a></li>
-        <li role="separator" class="divider"></li>
-        <li><a href="#">One more separated link</a></li>
-    </ul>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" routerLink="team">Team</a>
+    <li class="nav-item dropdown header" dropdown>
+        <a dropdownToggle role="button" class="nav-link header">Gymnastics</a>
+        <ul *dropdownMenu class="dropdown-menu header">
+          <li><a class="nav-link header" href="#" routerLink="recreational">Recreational</a></li>
+          <li><a class="nav-link header" href="#" routerLink="team">Team</a></li>
+          <li><a class="nav-link header" href="#" routerLink="birthday">Birthdays</a></li>
+         </ul>
+      </li>
+    <li class="nav-item">
+      <a class="nav-link header" href="#" routerLink="team">Team</a>
     </li>
   </ul>
   </div>

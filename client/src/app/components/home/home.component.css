@@ -1,8 +1,8 @@
 body {
-    background-color: #8fcd41;
+    color: black;
     font-family: 'Amaranth', sans-serif;
-    font-size: 1.25em;
-    background-image: url("/assets/gymnastics-photo.jpg");
+    font-size: 1.75em;
+
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -20,7 +20,7 @@ h2 {
 }
 
 h1{
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
@@ -32,25 +32,29 @@ h1{
 }
 
 div.test1 {
-width: 175px;
-height: 120px;
+width: 200px;
+height: 137px;
 padding: 10px;
 border: 2px solid rgba(0, 0, 0, 0);
 border-radius: 15px;
 -moz-border-radius: 15px;
 background-color: #6d9e32;
 transition-duration: 0.4s;
+font-size: 1.1em;
+color: white;
 }
 
 div.test2 {
-width: 175px;
-height: 120px;
+width: 200px;
+height: 137px;
 padding: 10px;
 border: 2px solid rgba(0, 0, 0, 0);
 border-radius: 15px;
 -moz-border-radius: 15px;
 background-color: #8fcd41;
 transition-duration: 0.4s;
+font-size: 1.1em;
+color: white;
 }
 
 div.test1:hover {
@@ -61,4 +65,44 @@ div.test2:hover {
     background-color: #6d9e32
 }
 
+.shadow {
+    text-shadow: 2px 2px black;
+}
+
+.marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-size: 1.25em;
+    background-color: #8fcd41;
+    color: white;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+img {
+    opacity: 0.5;
+}
+
+.carousel-caption {
+    color: black;
+}
 
