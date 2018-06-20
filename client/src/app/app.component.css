@@ -4,10 +4,22 @@
     color: white;   
     transition-duration: 0.4s;
     background-color: #8fcd41;
-    font-size: 1.25em;
+    font-size: 2em;
 }
 
 .header:hover {
+    color: #8fcd41;
+    background-color: white;
+}
+
+.list-item{
+    color: white;   
+    transition-duration: 0.4s;
+    background-color: #8fcd41;
+    font-size: 1em;
+}
+
+.list-item:hover {
     color: #8fcd41;
     background-color: white;
 }
@@ -19,7 +31,7 @@
 
 body {
     font-family: 'Amatic SC', cursive;
-    font-size: 2em;
+
     font-weight: bold;
     background-color: white;
     background-image: url("/assets/headerbackground.png");
