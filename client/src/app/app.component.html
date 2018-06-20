@@ -1,15 +1,18 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+  </head>
 
 
 <body>
-  <br>
+   
+
   <ul class="nav justify-content-center">
-    <li class="nav-item">
+    <li class="nav-item logo">
       <a  href="#" routerLink="">
-      <img src=".\assets\EdgeGymnasticsLogo3.png" style="width:350px;height:250px;">
+      <img src=".\assets\EdgeGymnasticsLogo3.png" style="width:400px;height:285px;">
       </a>
     </li>
   </ul>
@@ -22,7 +25,7 @@
       <a class="nav-link header" href="#" routerLink="">Home</a>
     </li>
     <li class="nav-item dropdown header" dropdown>
-      <a dropdownToggle role="button" class="nav-link header">About Us</a>
+      <a dropdownToggle role="button" class="nav-link ">About Us</a>
       <ul *dropdownMenu class="dropdown-menu header">
         <li><a class="nav-link header" href="#" routerLink="about">About Edge</a></li>
         <li><a class="nav-link header" href="#">Employment</a></li>
@@ -44,26 +47,34 @@
     <li class="nav-item">
       <a class="nav-link header" href="#" routerLink="parties">Parties</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link header" href="#" routerLink="sessions">Sessions</a>
-    </li>
     <li class="nav-item dropdown header" dropdown>
-        <a dropdownToggle role="button" class="nav-link header">Facility</a>
+        <a dropdownToggle role="button" class="nav-link">Facility</a>
         <ul *dropdownMenu class="dropdown-menu header">
           <li><a class="nav-link header" href="#" routerLink="facility">Photos</a></li>
          </ul>
       </li>
     <li class="nav-item dropdown header" dropdown>
-        <a dropdownToggle role="button" class="nav-link header">Gymnastics</a>
+        <a dropdownToggle role="button" class="nav-link">Gymnastics</a>
         <ul *dropdownMenu class="dropdown-menu header">
           <li><a class="nav-link header" href="#" routerLink="recreational">Recreational</a></li>
-          <li><a class="nav-link header" href="#" routerLink="team">Team</a></li>
-          <li><a class="nav-link header" href="#" routerLink="birthday">Birthdays</a></li>
+          <li><a class="nav-link header" href="#" routerLink="team">Girl's Team</a></li>
+          <li><a class="nav-link header" href="#" routerLink="team">Boy's Team</a></li>
+          
          </ul>
       </li>
     <li class="nav-item">
       <a class="nav-link header" href="#" routerLink="team">Team</a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link header" href="#" routerLink="">
+          <i class="fa fa-facebook" ></i>
+        </a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link header" href="#" routerLink="">
+            <i class="fa fa-instagram"></i>
+          </a>
+      </li>
   </ul>
   </div>
 </body>
@@ -85,6 +96,16 @@
         </li>
         <li class="nav-item">
           <a class="nav-link footer" href="#" routerLink="classes">Classes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link footer" href="#" routerLink="">
+            <i class="fa fa-facebook-f" style="font-size:36px"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link footer " href="#" routerLink="">
+              <i class="fa fa-instagram" style="font-size:36px"></i>
+            </a>
         </li>
   </ul>
 </footer>

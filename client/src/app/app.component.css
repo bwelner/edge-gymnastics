@@ -1,7 +1,10 @@
+@import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
+
 .header{
     color: white;   
     transition-duration: 0.4s;
     background-color: #8fcd41;
+    font-size: 1.25em;
 }
 
 .header:hover {
@@ -9,10 +12,16 @@
     background-color: white;
 }
 
+.logo {
+  text-align: center;
+  position: relative;
+}
+
 body {
     font-family: 'Amatic SC', cursive;
     font-size: 2em;
     font-weight: bold;
+    background-color: white;
     background-image: url("/assets/headerbackground.png");
     
 }
@@ -45,3 +54,11 @@ footer {
 
 }
 
+
+.fa-facebook:hover {
+  color: #3B5998;
+}
+
+.fa-instagram:hover {
+  color: pink;
+}

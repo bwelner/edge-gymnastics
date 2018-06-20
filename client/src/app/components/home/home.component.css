@@ -2,7 +2,8 @@ body {
     color: black;
     font-family: 'Amaranth', sans-serif;
     font-size: 1.75em;
-
+    background-color: #8fcd41;
+    background-image: url(/assets/gymnastics-photo.jpg);
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -31,21 +32,23 @@ h1{
     font-family: 'Amaranth', sans-serif;
 }
 
-div.test1 {
-width: 200px;
+div.box1 {
+min-width: 100px;
+max-width: 200px;
 height: 137px;
 padding: 10px;
 border: 2px solid rgba(0, 0, 0, 0);
 border-radius: 15px;
 -moz-border-radius: 15px;
-background-color: #6d9e32;
+background-color: #1952FF;
 transition-duration: 0.4s;
 font-size: 1.1em;
 color: white;
 }
 
-div.test2 {
-width: 200px;
+div.box2 {
+min-width: 100px;
+max-width: 200px;
 height: 137px;
 padding: 10px;
 border: 2px solid rgba(0, 0, 0, 0);
@@ -57,12 +60,12 @@ font-size: 1.1em;
 color: white;
 }
 
-div.test1:hover {
+div.box1:hover {
     background-color: #8fcd41
 }
 
-div.test2:hover {
-    background-color: #6d9e32
+div.box2:hover {
+    background-color: #1952FF
 }
 
 .shadow {
@@ -106,3 +109,6 @@ img {
     color: black;
 }
 
+.col-sm {
+    min-width: 200px;
+}
