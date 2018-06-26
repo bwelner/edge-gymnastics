@@ -30,8 +30,8 @@
 }
 
 body {
-    font-family: 'Amatic SC', cursive;
-
+    font-family: 'Amaranth', cursive;
+    text-shadow: 2px 2px black;
     font-weight: bold;
     background-color: white;
     background-image: url("/assets/headerbackground.png");
@@ -50,7 +50,7 @@ footer {
 .footer {
     background-color: black;
     color: white;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amaranth', cursive;
     font-size: 2em;
     font-weight: bold;
     transition-duration: 0.4s;
@@ -67,10 +67,14 @@ footer {
 }
 
 
-.fa-facebook:hover {
+.fa-facebook {
   color: #3B5998;
 }
 
-.fa-instagram:hover {
-  color: pink;
+.fa-instagram {
+  color: #fbad50;
 }
+
+.fa-twitter {
+    color: #1DA1F2;
+  }
