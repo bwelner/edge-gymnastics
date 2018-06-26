@@ -1,9 +1,12 @@
 body {
-    background-color: #8fcd41;
+    background-color: #292929;
     font-family: 'Amaranth', sans-serif;
     font-size: 1.25em;
     text-align: left;
+    color: black;
+    background-image: url(/assets/Dancer.png);
 }
+
 
 div {
     overflow: hidden;
@@ -26,4 +29,10 @@ h1{
 .green {
     background-color: #8fcd41;
     font-family: 'Amaranth', sans-serif;
+}
+
+.grey-container{
+    background-color: #8fcd41;
+    padding: 15px;
+    border-radius: 20px;
 }
