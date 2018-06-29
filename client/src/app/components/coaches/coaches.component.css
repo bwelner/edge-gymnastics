@@ -32,6 +32,7 @@ h1{
 }
 
 .grey-container{
+    float: center;
     background-color: #8fcd41;
     padding: 15px;
     border-radius: 20px;
@@ -40,3 +41,15 @@ h1{
 img{
     position: static;
 }
+
+.column {
+    float: center;
+    width: 33.33%;
+    padding: 25px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

@@ -101,9 +101,6 @@ div.box2:hover {
     100% { transform: translate(-100%, 0); }
 }
 
-img {
-
-}
 
 .carousel-caption {
     color: black;
@@ -115,12 +112,22 @@ img {
 
 .button-text {
     position: absolute;
-    bottom: 50px;
-    left: 60px;
+    bottom: 40px;
+    left: 40px;
+    right: 15px;
+    top: 40px;
 }
 
 .image-container {
     position: absolute;
     bottom: -15px;
     left: 5px;
+}
+
+a {
+    color: white;
+}
+
+.larger-font {
+    font-size: 1.15em;
 }
