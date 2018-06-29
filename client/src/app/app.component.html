@@ -29,7 +29,8 @@
       <ul *dropdownMenu class="dropdown-menu list-item">
         <li><a class="nav-link list-item" href="#" routerLink="about">About Edge</a></li>
         <li><a class="nav-link list-item" href="#">Employment</a></li>
-        <li><a class="nav-link list-item" href="#" routerLink="classes" >Meet the Staff</a></li>
+        <li><a class="nav-link list-item" href="#" routerLink="coaches" >Meet the Staff</a></li>
+        <li><a class="nav-link list-item" href="#" routerLink="coaches" >FAQ</a></li>
       </ul>
     </li>
     <li class="nav-item">
@@ -39,32 +40,30 @@
       <a class="nav-link header" href="#" routerLink="classes">Classes</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link header" href="#" routerLink="coaches">Coaches</a>
-    </li>
-    <li class="nav-item">
       <a class="nav-link header" href="#" routerLink="contact">Contact</a>
     </li>
     <li class="nav-item">
       <a class="nav-link header" href="#" routerLink="parties">Parties</a>
     </li>
-    <li class="nav-item dropdown header" dropdown>
-        <a dropdownToggle role="button" class="nav-link">Facility</a>
-        <ul *dropdownMenu class="dropdown-menu list-item">
-          <li><a class="nav-link list-item" href="#" routerLink="facility">Photos</a></li>
-         </ul>
-      </li>
+    <li class="nav-item">
+      <a class="nav-link header" href="#" routerLink="facility">Facility</a>
+    </li>
     <li class="nav-item dropdown header" dropdown>
         <a dropdownToggle role="button" class="nav-link">Gymnastics</a>
         <ul *dropdownMenu class="dropdown-menu list-item">
-          <li><a class="nav-link list-item" href="#" routerLink="recreational">Recreational</a></li>
+          <li><a class="nav-link list-item" href="#" routerLink="recreational">Recreational</a></li>   
+         </ul>
+      </li>
+      <li class="nav-item dropdown header" dropdown>
+        <a dropdownToggle role="button" class="nav-link">Team</a>
+        <ul *dropdownMenu class="dropdown-menu list-item">
+
           <li><a class="nav-link list-item" href="#" routerLink="team">Girl's Team</a></li>
           <li><a class="nav-link list-item" href="#" routerLink="team">Boy's Team</a></li>
+          <li><a class="nav-link list-item" href="#" routerLink="team">FAQ</a></li>
           
          </ul>
       </li>
-    <li class="nav-item">
-      <a class="nav-link header" href="#" routerLink="team">Team</a>
-    </li>
     <li class="nav-item">
         <a class="nav-link header" href="#" routerLink="">
           <i class="fa fa-facebook" ></i>
@@ -89,6 +88,7 @@
 <router-outlet></router-outlet>
 
 <footer>
+  
   <ul class="nav justify-content-center">
       <li class="nav-item">
           <a class="nav-link footer" href="#" routerLink="home">Home</a>
@@ -117,5 +117,15 @@
               <i class="fa fa-twitter" style="font-size:36px"></i>
             </a>
         </li>
-  </ul>
+      </ul>
+     
+      <div class="container">
+        <div class="row">
+          <div class="col-md"></div>
+          <div class="col-md-8">
+            <p class="footer-small"> 6780 Sierra Court Suite K, Dublin, CA 94568 ·<br> Phone 925 479-9904</p>
+          </div>
+          <div class="col-md"></div>
+        </div>
+      </div>
 </footer>

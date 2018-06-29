@@ -78,3 +78,13 @@ footer {
 .fa-twitter {
     color: #1DA1F2;
   }
+
+  .footer-small {
+    background-color: black;
+    color: white;
+    font-family: 'Amaranth', cursive;
+    font-size: 1.75em;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    text-align: center;
+}
