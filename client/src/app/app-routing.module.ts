@@ -11,6 +11,14 @@ import { PartiesComponent } from './components/parties/parties.component';
 import { SessionsComponent } from './components/sessions/sessions.component';
 import { TeamComponent } from './components/team/team.component';
 import { FacilityComponent } from './components/facility/facility.component';
+import { GymnasticsComponent } from './components/gymnastics/gymnastics.component';
+import { EmploymentComponent } from './components/employment/employment.component';
+import { CampComponent } from './components/camp/camp.component';
+import { FaqComponent } from './components/faq/faq.component';
+import { TeamFaqComponent } from './components/team-faq/team-faq.component';
+import { BoysTeamComponent } from './components/boys-team/boys-team.component';
+import { GirlsTeamComponent } from './components/girls-team/girls-team.component';
+import { RecreationalComponent } from './components/recreational/recreational.component';
 
 const routes: Routes = [
   {
@@ -50,9 +58,41 @@ const routes: Routes = [
       path: 'about',
         component: AboutComponent
       },
+    {
+      path: 'facility',
+        component: FacilityComponent
+      },
+    {
+      path: 'gymnastics',
+        component: GymnasticsComponent
+      },
+    {
+      path: 'employment',
+        component: EmploymentComponent
+      },  
+    {
+      path: 'camp',
+        component: CampComponent
+      },  
+    {
+      path: 'faq',
+        component: FaqComponent
+      },  
+    {
+      path: 'recreational',
+        component: RecreationalComponent
+      },  
+    {
+      path: 'girls-team',
+        component: GirlsTeamComponent
+      },  
+    {
+      path: 'boys-team',
+        component: BoysTeamComponent
+      },
       {
-        path: 'facility',
-          component: FacilityComponent
+        path: 'team-faq',
+          component: TeamFaqComponent
         },
     {
     path: '**', redirectTo: ''

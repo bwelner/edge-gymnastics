@@ -4,7 +4,7 @@
     color: white;   
     transition-duration: 0.4s;
     background-color: #8fcd41;
-    font-size: 2em;
+    font-size: 1.75em;
 }
 
 .header:hover {
@@ -88,3 +88,8 @@ footer {
     transition-duration: 0.4s;
     text-align: center;
 }
+
+.dropdown-menu {
+    display: none;
+}
+.dropdown:hover .dropdown-menu {display: block;}

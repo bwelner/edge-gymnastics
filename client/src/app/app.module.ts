@@ -14,6 +14,14 @@ import { TeamComponent } from './components/team/team.component';
 import { PartiesComponent } from './components/parties/parties.component';
 import { FacilityComponent } from './components/facility/facility.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { GymnasticsComponent } from './components/gymnastics/gymnastics.component';
+import { EmploymentComponent } from './components/employment/employment.component';
+import { CampComponent } from './components/camp/camp.component';
+import { FaqComponent } from './components/faq/faq.component';
+import { RecreationalComponent } from './components/recreational/recreational.component';
+import { GirlsTeamComponent } from './components/girls-team/girls-team.component';
+import { BoysTeamComponent } from './components/boys-team/boys-team.component';
+import { TeamFaqComponent } from './components/team-faq/team-faq.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +35,15 @@ import { ContactComponent } from './components/contact/contact.component';
     TeamComponent,
     PartiesComponent,
     FacilityComponent,
-    ContactComponent
+    ContactComponent,
+    GymnasticsComponent,
+    EmploymentComponent,
+    CampComponent,
+    FaqComponent,
+    RecreationalComponent,
+    GirlsTeamComponent,
+    BoysTeamComponent,
+    TeamFaqComponent
   ],
   imports: [
     BrowserModule,
