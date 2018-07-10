@@ -1,10 +1,13 @@
 body {
     color: black;
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Contrail One';
     font-size: 1.75em;
-    background-color: #8fcd41;
-    background-image: url(/assets/gymnastics-photo.jpg);
+    background-color: #292929;
+    background-image: url(/assets/bwbackground.jpg);
+    background-size: 1700px;
     background-repeat: no-repeat;
+    background-position: top, center;
+    background-blend-mode: screen;
     text-align: center;
 }
 
@@ -111,11 +114,8 @@ div.box2:hover {
 }
 
 .button-text {
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
-    right: 15px;
-    top: 40px;
+
+    top: 140px;
 }
 
 .image-container {
@@ -130,4 +130,10 @@ a {
 
 .larger-font {
     font-size: 1.15em;
+}
+
+.grey-container{
+    background-color: #8fcd41;
+    padding: 15px;
+    border-radius: 20px;
 }

@@ -93,3 +93,7 @@ footer {
     display: none;
 }
 .dropdown:hover .dropdown-menu {display: block;}
+
+a {
+    color: white;
+}

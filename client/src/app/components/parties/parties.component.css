@@ -1,6 +1,6 @@
 body {
     background-color: #292929;
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Contrail One';
     font-size: 1.25em;
     text-align: left;
     color: black;
@@ -37,7 +37,6 @@ h1{
     border-radius: 20px;
 }
 
-.pic {
-    text-align: right;
-    position: static;
+img {
+    border-radius: 10px;
 }

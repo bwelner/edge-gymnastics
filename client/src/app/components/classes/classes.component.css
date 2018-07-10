@@ -1,6 +1,6 @@
 body {
     background-color: #292929;
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Contrail One';
     font-size: 1.25em;
     text-align: left;
     color: black;
@@ -33,4 +33,24 @@ h1{
     background-color: #8fcd41;
     padding: 15px;
     border-radius: 20px;
+}
+img {
+    border-radius: 10px;
+}
+
+.card-title{
+    font-size: 1.75em;
+}
+
+.card-subtitle{
+    font-size: 4em;
+}
+
+.card{
+    border: 4px solid #8fcd41;
+}
+
+.col-md{
+    margin: 10px;
+    column-width: 200px;
 }
