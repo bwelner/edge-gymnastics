@@ -1,6 +1,6 @@
 body {
     background-color: #292929;
-    font-family: 'Contrail One';
+    font-family: 'Oswald', sans-serif;
     font-size: 1.25em;
     text-align: left;
     color: black;
@@ -28,7 +28,7 @@ h1{
 
 .green {
     background-color: #8fcd41;
-    font-family: 'Amaranth', sans-serif;
+
 }
 
 .grey-container{

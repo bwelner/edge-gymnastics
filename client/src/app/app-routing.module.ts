@@ -20,6 +20,7 @@ import { BoysTeamComponent } from './components/boys-team/boys-team.component';
 import { GirlsTeamComponent } from './components/girls-team/girls-team.component';
 import { RecreationalComponent } from './components/recreational/recreational.component';
 import { OpengymComponent } from './components/opengym/opengym.component';
+import { RecruitableComponent } from './components/recruitable/recruitable.component';
 
 const routes: Routes = [
   {
@@ -91,14 +92,18 @@ const routes: Routes = [
       path: 'boys-team',
         component: BoysTeamComponent
       },
+  {
+    path: 'team-faq',
+      component: TeamFaqComponent
+    },
+    {
+      path: 'opengym',
+        component: OpengymComponent
+      },
       {
-        path: 'team-faq',
-          component: TeamFaqComponent
+        path: 'recruitable',
+          component: RecruitableComponent
         },
-        {
-          path: 'opengym',
-            component: OpengymComponent
-          },
     {
     path: '**', redirectTo: ''
     }

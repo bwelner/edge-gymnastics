@@ -30,7 +30,7 @@
 }
 
 body {
-    font-family: 'Amaranth', cursive;
+    font-family: 'Oswald', sans-serif;
     text-shadow: 2px 2px black;
     font-weight: bold;
     background-color: white;
@@ -50,7 +50,7 @@ footer {
 .footer {
     background-color: black;
     color: white;
-    font-family: 'Amaranth', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 2em;
     font-weight: bold;
     transition-duration: 0.4s;
