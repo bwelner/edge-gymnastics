@@ -45,6 +45,14 @@
       <li class="nav-item">
           <a class="nav-link header" href="#" routerLink="parties">Parties</a>
         </li>
+        <li class="nav-item dropdown header" dropdown triggers="hover">
+            <a dropdownToggle role="button" class="nav-link ">Camps + Events</a>
+            <ul *dropdownMenu class="dropdown-menu list-item">
+              <li><a class="nav-link list-item" href="http://www.edge-gymnastics.com/edge_pdf/Summer%20Camp%20Brochure%202018%20(1).pdf">Camps</a></li>
+              <li><a class="nav-link list-item" href="http://www.edge-gymnastics.com/edge_pdf/May%202018%20KNO.pdf">Kids Night Out</a></li>
+              <li><a class="nav-link list-item" href="#" routerLink="opengym">Open Gym</a></li>
+            </ul>
+          </li>
     <li class="nav-item">
       <a class="nav-link header" href="#" routerLink="calendar">Calendar</a>
     </li>
@@ -132,7 +140,7 @@
         <div class="row">
           <div class="col-md"></div>
           <div class="col-md-8">
-            <p class="footer-small"> 6780 Sierra Court Suite K, Dublin, CA 94568 ·<br> Phone 925 479-9904</p>
+            <p class="footer-small"> 6780 Sierra Court Suite K, Dublin, CA 94568 ·<br> Phone <a href="tel:+19254799904">925-479-9904</a> </p>
           </div>
           <div class="col-md"></div>
         </div>

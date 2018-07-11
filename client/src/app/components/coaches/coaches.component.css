@@ -53,3 +53,8 @@ img{
     clear: both;
     display: table;
   }
+
+img{
+    display: block;
+    margin: auto;
+}

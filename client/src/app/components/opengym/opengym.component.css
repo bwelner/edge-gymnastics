@@ -1,0 +1,38 @@
+body {
+    background-color: #292929;
+    font-family: 'Contrail One';
+    font-size: 1.25em;
+    text-align: left;
+    color: black;
+    background-image: url(/assets/Dancer.png);
+}
+
+div {
+    overflow: hidden;
+}
+
+h2 {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.green {
+    background-color: #8fcd41;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.grey-container{
+    background-color: #8fcd41;
+    padding: 15px;
+    border-radius: 20px;
+}

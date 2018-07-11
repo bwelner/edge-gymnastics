@@ -3,8 +3,8 @@ body {
     font-family: 'Contrail One';
     font-size: 1.75em;
     background-color: #292929;
-    background-image: url(/assets/bwbackground.jpg);
-    background-size: 1700px;
+    background-image: url(/assets/_MG_1943.jpg);
+    background-size: 3000px;
     background-repeat: no-repeat;
     background-position: top, center;
     background-blend-mode: screen;
@@ -39,7 +39,8 @@ div.box1 {
 min-width: 100px;
 max-width: 200px;
 height: 137px;
-padding: 10px;
+padding-top: 30px;
+padding-bottom: 30px;
 border: 2px solid rgba(0, 0, 0, 0);
 border-radius: 15px;
 -moz-border-radius: 15px;
@@ -47,13 +48,16 @@ background-color: black;
 transition-duration: 0.4s;
 font-size: 1.1em;
 color: white;
+display: block;
+margin: auto;
 }
 
 div.box2 {
 min-width: 100px;
 max-width: 200px;
 height: 137px;
-padding: 10px;
+padding-top: 40px;
+padding-bottom: 40px;
 border: 2px solid rgba(0, 0, 0, 0);
 border-radius: 15px;
 -moz-border-radius: 15px;
@@ -61,6 +65,8 @@ background-color: #8fcd41;
 transition-duration: 0.4s;
 font-size: 1.1em;
 color: white;
+display: block;
+margin: auto;
 }
 
 div.box1:hover {
@@ -114,15 +120,12 @@ div.box2:hover {
 }
 
 .button-text {
-
-    top: 140px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    
 }
 
-.image-container {
-    position: absolute;
-    bottom: -15px;
-    left: 5px;
-}
 
 a {
     color: white;
@@ -130,10 +133,15 @@ a {
 
 .larger-font {
     font-size: 1.15em;
+    
 }
 
 .grey-container{
     background-color: #8fcd41;
     padding: 15px;
     border-radius: 20px;
+}
+
+a.no-underline:hover{
+    text-decoration: none;
 }
