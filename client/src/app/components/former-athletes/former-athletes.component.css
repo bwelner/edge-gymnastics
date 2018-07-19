@@ -12,11 +12,11 @@ div {
 }
 
 h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.25em;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: left;
-    
+    text-decoration: underline;
 }
 
 h1{
@@ -37,10 +37,6 @@ h1{
     border-radius: 20px;
 }
 
-.indent{
-    text-indent: 2.25%;
-}
-
-.inline{
-    display: inline;
+img {
+    border-radius: 10px;
 }

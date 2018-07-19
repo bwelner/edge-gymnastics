@@ -39,8 +39,8 @@ div.box1 {
 min-width: 100px;
 max-width: 200px;
 height: 137px;
-padding-top: 30px;
-padding-bottom: 30px;
+padding-top: 40px;
+padding-bottom: 40px;
 border: 2px solid rgba(0, 0, 0, 0);
 border-radius: 15px;
 -moz-border-radius: 15px;
@@ -74,7 +74,7 @@ div.box1:hover {
 }
 
 div.box2:hover {
-    background-color: #1952FF
+    background-color: black
 }
 
 .shadow {
@@ -144,4 +144,8 @@ a {
 
 a.no-underline:hover{
     text-decoration: none;
+}
+
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer, div[href]{
+    cursor: pointer;
 }

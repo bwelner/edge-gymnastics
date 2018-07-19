@@ -21,6 +21,8 @@ import { GirlsTeamComponent } from './components/girls-team/girls-team.component
 import { RecreationalComponent } from './components/recreational/recreational.component';
 import { OpengymComponent } from './components/opengym/opengym.component';
 import { RecruitableComponent } from './components/recruitable/recruitable.component';
+import { FieldTripsComponent } from './components/field-trips/field-trips.component';
+import { FormerAthletesComponent } from './components/former-athletes/former-athletes.component';
 
 const routes: Routes = [
   {
@@ -104,6 +106,14 @@ const routes: Routes = [
         path: 'recruitable',
           component: RecruitableComponent
         },
+        {
+          path: 'field-trips',
+            component: FieldTripsComponent
+          },
+          {
+            path: 'former-athletes',
+              component: FormerAthletesComponent
+            },
     {
     path: '**', redirectTo: ''
     }

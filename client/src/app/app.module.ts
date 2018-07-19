@@ -24,6 +24,8 @@ import { BoysTeamComponent } from './components/boys-team/boys-team.component';
 import { TeamFaqComponent } from './components/team-faq/team-faq.component';
 import { OpengymComponent } from './components/opengym/opengym.component';
 import { RecruitableComponent } from './components/recruitable/recruitable.component';
+import { FieldTripsComponent } from './components/field-trips/field-trips.component';
+import { FormerAthletesComponent } from './components/former-athletes/former-athletes.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +49,9 @@ import { RecruitableComponent } from './components/recruitable/recruitable.compo
     BoysTeamComponent,
     TeamFaqComponent,
     OpengymComponent,
-    RecruitableComponent
+    RecruitableComponent,
+    FieldTripsComponent,
+    FormerAthletesComponent
   ],
   imports: [
     BrowserModule,
