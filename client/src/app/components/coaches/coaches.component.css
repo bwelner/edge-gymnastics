@@ -38,9 +38,7 @@ h1{
     border-radius: 20px;
 }
 
-img{
-    position: static;
-}
+
 
 .column {
     float: center;
@@ -57,4 +55,5 @@ img{
 img{
     display: block;
     margin: auto;
+    position: static;
 }

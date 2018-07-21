@@ -44,3 +44,8 @@ h1{
 .inline{
     display: inline;
 }
+
+#underline{
+    text-decoration: underline;
+    font-style: italic;
+}

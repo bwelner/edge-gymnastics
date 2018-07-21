@@ -5,6 +5,7 @@
     transition-duration: 0.4s;
     background-color: #8fcd41;
     font-size: 1.75em;
+    margin: 0px;
 }
 
 .header:hover {
@@ -82,7 +83,7 @@ footer {
   .footer-small {
     background-color: black;
     color: white;
-    font-family: 'Amaranth', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 1.75em;
     font-weight: bold;
     transition-duration: 0.4s;
@@ -96,4 +97,12 @@ footer {
 
 a {
     color: white;
+}
+
+a:hover{
+    color: #8fcd41;
+}
+
+ul {
+    margin: 0px;
 }

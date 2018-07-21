@@ -24,6 +24,7 @@ h1{
     font-size: 3em;
     font-weight: bold;
     text-align: center;
+    text-decoration: underline;
 }
 
 .green {
@@ -34,5 +35,12 @@ h1{
 .grey-container{
     background-color: #8fcd41;
     padding: 15px;
+    border-radius: 20px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    position: static;
     border-radius: 20px;
 }
