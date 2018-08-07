@@ -23,6 +23,7 @@ import { OpengymComponent } from './components/opengym/opengym.component';
 import { RecruitableComponent } from './components/recruitable/recruitable.component';
 import { FieldTripsComponent } from './components/field-trips/field-trips.component';
 import { FormerAthletesComponent } from './components/former-athletes/former-athletes.component';
+import { PreCompetitiveComponent } from './components/pre-competitive/pre-competitive.component';
 
 const routes: Routes = [
   {
@@ -98,21 +99,25 @@ const routes: Routes = [
     path: 'team-faq',
       component: TeamFaqComponent
     },
+  {
+    path: 'opengym',
+      component: OpengymComponent
+    },
     {
-      path: 'opengym',
-        component: OpengymComponent
+      path: 'recruitable',
+        component: RecruitableComponent
       },
       {
-        path: 'recruitable',
-          component: RecruitableComponent
+        path: 'field-trips',
+          component: FieldTripsComponent
         },
         {
-          path: 'field-trips',
-            component: FieldTripsComponent
+          path: 'former-athletes',
+            component: FormerAthletesComponent
           },
           {
-            path: 'former-athletes',
-              component: FormerAthletesComponent
+            path: 'pre-competitive',
+              component: PreCompetitiveComponent
             },
     {
     path: '**', redirectTo: ''

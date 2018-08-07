@@ -1,6 +1,6 @@
 body {
     color: black;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 1.75em;
     background-color: #292929;
     background-image: url(/assets/_MG_1943.jpg);
@@ -9,6 +9,8 @@ body {
     background-position: top, center;
     background-blend-mode: screen;
     text-align: center;
+    font-weight: bold;
+    
 }
 
 div {
@@ -24,6 +26,8 @@ h2 {
 }
 
 h1{
+    font-family: 'Oswald', sans-serif;
+    
     font-size: 2em;
     font-weight: bold;
     text-align: center;
@@ -97,17 +101,29 @@ div.box2:hover {
     padding-top: 0.25em;
     padding-bottom: 0.25em;
     padding-left: 100%;
-    animation: marquee 15s linear infinite;
+    animation: marquee 35s linear infinite;
+
 }
 
 .marquee span:hover {
     animation-play-state: paused
 }
 
+.marquee span span:hover {
+    animation-play-state: running
+}
+
 
 @keyframes marquee {
     0%   { transform: translate(0, 0); }
-    100% { transform: translate(-100%, 0); }
+    12.5%  { transform: translate(-15.625%, 0)}
+    25%  { transform: translate(-31.25%, 0)}
+    37.5%  { transform: translate(-46.875%, 0)}
+    50%  { transform: translate(-62.5%, 0)}
+    62.5%  { transform: translate(-78.125, 0)}
+    75%  { transform: translate(-93.75%, 0)}
+    87.5%  { transform: translate(-109.375%, 0)}
+    100% { transform: translate(-125%, 0); }
 }
 
 
@@ -133,7 +149,7 @@ a {
 
 .larger-font {
     font-size: 1.15em;
-    
+    font-family: 'Oswald', sans-serif;
 }
 
 .grey-container{
