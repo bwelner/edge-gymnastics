@@ -93,7 +93,8 @@ footer {
 .dropdown-menu {
     display: none;
 }
-.dropdown:hover .dropdown-menu {display: block;}
+.dropdown:hover .dropdown-menu{display: block;}
+
 
 a {
     color: white;
@@ -106,3 +107,8 @@ a:hover{
 ul {
     margin: 0px;
 }
+
+.hover {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;        
+    }

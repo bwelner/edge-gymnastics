@@ -26,16 +26,16 @@
     <li class="nav-item">
       <a class="nav-link header" href="#" routerLink="">HOME</a>
     </li>
-    <li class="nav-item dropdown header" dropdown triggers="hover">
-      <a dropdownToggle role="button" class="nav-link ">ABOUT US</a>
-      <ul *dropdownMenu class="dropdown-menu list-item">
+    <li class="nav-item dropdown header" dropdown [autoClose]="true" triggers="hover">
+      <a dropdownToggle role="button" class="nav-link">ABOUT US</a>
+      <ul *dropdownMenu class="dropdown-menu list-item" >
         <li><a class="nav-link list-item" href="#" routerLink="about">ABOUT EDGE</a></li>
         <li><a class="nav-link list-item" href="#" routerLink="employment">EMPLOYMENT</a></li>
         <li><a class="nav-link list-item" href="#" routerLink="coaches">MEET THE STAFF</a></li>
         <li><a class="nav-link list-item" href="#" routerLink="faq">FAQ</a></li>
       </ul>
     </li>
-    <li class="nav-item dropdown header" dropdown triggers="hover">
+    <li class="nav-item dropdown header" dropdown [autoClose]="true" triggers="hover">
         <a dropdownToggle role="button" href="#" class="nav-link" routerLink="classes">CLASS SCHEDULES</a>
         <ul *dropdownMenu class="dropdown-menu list-item"> 
           <li><a class="nav-link list-item" href="./assets/GirlsAcademyClassSchedule2018OnePage.pdf">GIRLS ACADEMY</a></li>   
@@ -46,7 +46,7 @@
          </ul>
       </li>
     
-        <li class="nav-item dropdown header" dropdown triggers="hover">
+        <li class="nav-item dropdown header" dropdown [autoClose]="true" triggers="hover">
             <a dropdownToggle role="button" class="nav-link ">CAMPS + EVENTS</a>
             <ul *dropdownMenu class="dropdown-menu list-item">
               <li><a class="nav-link list-item" href="./assets/SummerCampBrochure2018.pdf">CAMPS</a></li>
@@ -60,7 +60,7 @@
     <li class="nav-item">
       <a class="nav-link header" href="#" routerLink="calendar">CALENDAR</a>
     </li>
-    <li class="nav-item dropdown header" dropdown triggers="hover">
+    <li class="nav-item dropdown header" dropdown [autoClose]="true" triggers="hover">
         <a dropdownToggle role="button" class="nav-link">TEAM</a>
         <ul *dropdownMenu class="dropdown-menu list-item">
           <li><a class="nav-link list-item" href="#" routerLink="pre-competitive">PRE-COMPETITIVE</a></li>          
