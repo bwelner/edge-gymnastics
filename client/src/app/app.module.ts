@@ -27,6 +27,7 @@ import { RecruitableComponent } from './components/recruitable/recruitable.compo
 import { FieldTripsComponent } from './components/field-trips/field-trips.component';
 import { FormerAthletesComponent } from './components/former-athletes/former-athletes.component';
 import { PreCompetitiveComponent } from './components/pre-competitive/pre-competitive.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,7 @@ import { PreCompetitiveComponent } from './components/pre-competitive/pre-compet
     BsDropdownModule.forRoot(),
     CarouselModule.forRoot(),
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
