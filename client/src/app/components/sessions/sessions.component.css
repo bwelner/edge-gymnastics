@@ -33,6 +33,12 @@ h1{
     background-color: #8fcd41;
 
 }
+
+img{
+    margin: auto;
+    height: 450px;
+    border-radius: 15px;
+}
 /* 
 .grey-container{
     background-color: #8fcd41;
